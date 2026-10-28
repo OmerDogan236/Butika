@@ -1,0 +1,143 @@
+{
+  "expo": {
+    "name": "Butika",
+    "slug": "butika",
+    "scheme": "butika",
+    "version": "1.2.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#F8F5F0"
+    },
+    "ios": {
+      "bundleIdentifier": "app.butika",
+      "buildNumber": "18",
+      "supportsTablet": false,
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleDevelopmentRegion": "tr",
+        "CFBundleLocalizations": [
+          "tr",
+          "en"
+        ]
+      },
+      "associatedDomains": [
+        "applinks:butika.ai",
+        "applinks:www.butika.ai"
+      ],
+      "entitlements": {
+        "keychain-access-groups": [
+          "$(AppIdentifierPrefix)app.butika.ortak"
+        ]
+      },
+      "appleTeamId": "267U2P4925"
+    },
+    "locales": {
+      "tr": "./locales/tr.json",
+      "en": "./locales/en.json"
+    },
+    "android": {
+      "package": "app.butika",
+      "versionCode": 23,
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#561C2A"
+      },
+      "edgeToEdgeEnabled": true,
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "butika.ai",
+              "pathPrefix": "/b/"
+            },
+            {
+              "scheme": "https",
+              "host": "www.butika.ai",
+              "pathPrefix": "/b/"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-secure-store",
+        {
+          "faceIDPermission": false
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#9B7E5C"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "backgroundColor": "#F8F5F0",
+          "resizeMode": "cover"
+        }
+      ],
+      "expo-apple-authentication",
+      "expo-localization",
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.GOOGLE_IOS_CLIENT_ID"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          },
+          "android": {
+            "enableMinifyInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true
+          }
+        }
+      ],
+      "expo-video",
+      "@bacons/apple-targets",
+      "./plugins/paylasim-android"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "EAS_PROJECT_ID"
+      }
+    },
+    "owner": "EXPO_HESAP_ADI",
+    "updates": {
+      "enabled": false
+    }
+  }
+}

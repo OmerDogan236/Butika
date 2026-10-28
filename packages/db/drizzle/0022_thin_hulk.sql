@@ -1,0 +1,1 @@
+ALTER TABLE "saved_products" ADD COLUMN "tracking_started_at" timestamp with time zone DEFAULT now() NOT NULL;

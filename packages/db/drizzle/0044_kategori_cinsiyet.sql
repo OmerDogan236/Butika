@@ -1,0 +1,1 @@
+ALTER TABLE "categories" ADD COLUMN "cinsiyet" text DEFAULT 'kadin' NOT NULL;

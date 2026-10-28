@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ----------------------------------------------------------
+ * Butika Admin — Editorial palet, shadcn semantic'lerine bağlı
+ * (HSL formatında, çünkü shadcn ihtiyaç duyuyor)
+ * ---------------------------------------------------------- */
+@layer base {
+  :root {
+    /* cream */
+    --background: 36 33% 96%;
+    /* ink */
+    --foreground: 0 0% 4%;
+
+    --card: 36 33% 96%;
+    --card-foreground: 0 0% 4%;
+
+    --popover: 36 33% 96%;
+    --popover-foreground: 0 0% 4%;
+
+    /* ink button on cream */
+    --primary: 0 0% 4%;
+    --primary-foreground: 36 33% 96%;
+
+    /* mist */
+    --secondary: 36 9% 88%;
+    --secondary-foreground: 0 0% 4%;
+
+    /* mist */
+    --muted: 36 9% 88%;
+    --muted-foreground: 0 0% 36%;
+
+    /* gold */
+    --accent: 30 26% 49%;
+    --accent-foreground: 36 33% 96%;
+
+    /* clay */
+    --destructive: 353 51% 46%;
+    --destructive-foreground: 36 33% 96%;
+
+    --border: 36 9% 88%;
+    --input: 36 9% 88%;
+    --ring: 30 26% 49%;
+
+    --radius: 8px;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html,
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "cv11", "ss01";
+  }
+  /* Editorial varsayılan başlık ritmi */
+  h1,
+  h2,
+  h3 {
+    @apply font-display tracking-tight;
+  }
+}
+
+/* Hairline divider util */
+@layer utilities {
+  .hairline {
+    @apply border-t border-mist;
+  }
+  .hairline-l {
+    @apply border-l border-mist;
+  }
+}

@@ -1,0 +1,1 @@
+ALTER TABLE "bildirim_planlari" ADD COLUMN "hedef" text;

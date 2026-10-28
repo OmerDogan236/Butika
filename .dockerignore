@@ -1,0 +1,26 @@
+# Docker build context kökü = repo kökü (compose `context: ..`).
+# Hem apps/api hem apps/admin build'i bu context'i kullanır, o yüzden
+# kaynak klasörleri (apps/*) DIŞLAMA — sadece kurulum/derleme artefaktlarını çıkar.
+# node_modules dışlanmazsa, sunucuda Metro için oluşan büyük node_modules
+# image'a kopyalanıp `pnpm install --frozen-lockfile`'ı kırıyor
+# (ERR_PNPM_ABORTED_REMOVE_MODULES_DIR_NO_TTY).
+node_modules
+**/node_modules
+.git
+.gitignore
+.expo
+**/.expo
+.turbo
+**/.turbo
+.next
+**/.next
+dist
+**/dist
+*.log
+*.tsbuildinfo
+**/*.tsbuildinfo
+apps/api/src/diagnostics/output/
+.env.brightdata.local
+**/.env.brightdata.local
+# Sunucu anahtarları image'a asla girmemeli (COPY . . tüm context'i alır).
+butikaserverinfo/

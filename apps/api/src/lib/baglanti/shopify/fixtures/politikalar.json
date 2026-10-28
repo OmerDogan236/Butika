@@ -1,0 +1,31 @@
+{
+  "data": {
+    "shop": {
+      "shopPolicies": [
+        {
+          "type": "PRIVACY_POLICY",
+          "title": "Privacy policy",
+          "url": "https://checkout.shopify.com/91905654818/policies/49229299746.html?locale=en",
+          "body": "<p>(kısaltıldı)</p>"
+        },
+        {
+          "type": "REFUND_POLICY",
+          "title": "Refund policy",
+          "url": "https://checkout.shopify.com/91905654818/policies/49229692962.html?locale=en",
+          "body": "<p>Ürünlerinizi teslim aldığınız tarihten itibaren 14 gün içinde, kullanılmamış ve etiketi üzerinde olarak iade edebilirsiniz. İade kargo ücreti bize aittir. Ücret iadesi, ürün bize ulaştıktan sonra 5 iş günü içinde yapılır.</p>"
+        }
+      ]
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 2,
+      "actualQueryCost": 2,
+      "throttleStatus": {
+        "maximumAvailable": 2000.0,
+        "currentlyAvailable": 1998,
+        "restoreRate": 100.0
+      }
+    }
+  }
+}

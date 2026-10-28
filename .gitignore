@@ -1,0 +1,123 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+.next/
+.expo/
+.turbo/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+# Production prod compose env (server'da yaşar, gizli)
+/.env.production
+infra/.env.production
+infra/secrets/*
+!infra/secrets/.gitkeep
+!infra/secrets/README.md
+
+# Database
+*.db
+*.db-journal
+packages/db/drizzle/.snapshot/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE / Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.recommended.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Expo
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+apps/mobile/android/
+apps/mobile/ios/
+*.orig.*
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+
+# Android
+android/build/
+android/app/build/
+android/.gradle/
+
+# Docker
+.docker-volumes/
+
+# brainstorm görsel companion
+.superpowers/
+
+# Playwright/tarayıcı aracı çıktıları (geçici)
+.playwright-mcp/
+
+# ── Sırlar: bir daha kazara commit edilmesin (2026-08-13 güvenlik denetimi) ──
+# Not: hâlihazırda takip edilen dosyalar bundan etkilenmez; kural yenileri içindir.
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*-ssh-key/
+*private*key*
+*.mobileprovision
+service-account*.json
+google-services.json
+GoogleService-Info.plist
+.gemini_key_analiz
+# Sunucu SSH/sertifika anahtarları ve notları: repoda tutulmaz (sızmış kabul
+# edilip yenilenmeli). Yerel kopya varsa bu klasörde kalabilir.
+butikaserverinfo/
+
+# Butik analiz araçlarının ürettiği veri — yeniden üretilebilir, depoya girmemeli
+# (ham_urunler.csv 31 MB, .venv-analiz 165 MB). Betikler bu dosyaları çalışma
+# dizininden sabit adla okuyor, o yüzden yerlerinde duruyorlar; sadece git'e girmiyorlar.
+.venv-analiz/
+ham_urunler.csv
+ham_fiyatlar.csv
+analiz_sonuc*.csv
+analiz_hatalar*.csv
+butikler.csv
+butik_kategorileri.csv
+para_birimi_dogrulama.csv
+segment_hesap.json
+tarz_sonuc.json
+aksesuar_eleme_raporu.json
+butika-full-backup.bundle
+
+# Local retailer audit evidence; summaries and diagnostic scripts remain versioned.
+apps/api/src/diagnostics/output/

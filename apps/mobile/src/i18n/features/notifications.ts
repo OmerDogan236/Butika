@@ -1,0 +1,31 @@
+export const notificationsTr = {
+  title: 'Bildirimler',
+  unreadCount: '{{count}} okunmamış',
+  empty: 'Hemen kaydetmeye başla, sana haber verelim.',
+  description: 'Kaydettiğin ürünlerdeki doğrulanan fiyat düşüşleri ve haber vermemizi istediğin beden ve renklerin stoğa dönüşü burada görünür.',
+  product: 'Kaydettiğin ürün',
+  backInStock: 'Tekrar stokta',
+  error: 'Bildirimler yüklenemedi.',
+  retry: 'Tekrar dene',
+  more: 'Daha fazla göster',
+  unread: 'Okunmamış',
+  back: 'Geri',
+  priceNote: 'Bildirim anındaki fiyat. Güncel fiyatı mağazada kontrol et.',
+  readError: 'Okundu bilgisi kaydedilemedi. Bildirime tekrar dokunabilirsin.',
+};
+
+export const notificationsEn = {
+  title: 'Notifications',
+  unreadCount: '{{count}} unread',
+  empty: 'Start saving now and we’ll let you know.',
+  description: 'Verified price drops on your saved products, and the sizes and colours you asked about coming back in stock, appear here.',
+  product: 'Your saved product',
+  backInStock: 'Back in stock',
+  error: 'Could not load notifications.',
+  retry: 'Try again',
+  more: 'Show more',
+  unread: 'Unread',
+  back: 'Back',
+  priceNote: 'Price at the time of notification. Check the store for the current price.',
+  readError: 'Could not mark as read. You can tap the notification again.',
+};

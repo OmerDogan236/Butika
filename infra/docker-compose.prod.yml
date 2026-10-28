@@ -1,0 +1,114 @@
+# Production stack — Hetzner host'unda /opt/butika/infra altında çalışır.
+# Host: nginx (TLS), postgres 18 native install.
+# Docker: api (bun), admin (next.js standalone), minio (S3 + cdn).
+#
+# Usage:
+#   cd /opt/butika
+#   docker compose -f infra/docker-compose.prod.yml --env-file .env.production up -d
+#   docker compose -f infra/docker-compose.prod.yml --env-file .env.production logs -f
+#
+# host.docker.internal mapping = container'lardan host postgres'e erişim için.
+
+name: butika
+
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: apps/api/Dockerfile
+    image: butika-api:latest
+    container_name: butika-api
+    restart: always
+    ports:
+      - "127.0.0.1:3000:3000"
+    env_file:
+      - ../.env.production
+    extra_hosts:
+      # Custom bridge'in gateway'i (compose network'te sabit set ediyoruz).
+      # `host-gateway` keyword'u default bridge'i set ediyordu, custom bridge'te
+      # postgres erişimini kıran sorun buydu.
+      - "host.docker.internal:172.20.0.1"
+    networks:
+      - butika
+    logging:
+      driver: local
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 5s
+      start_period: 15s
+      retries: 3
+
+  admin:
+    build:
+      context: ..
+      dockerfile: apps/admin/Dockerfile
+    image: butika-admin:latest
+    container_name: butika-admin
+    restart: always
+    ports:
+      - "127.0.0.1:3001:3001"
+    env_file:
+      - ../.env.production
+    environment:
+      # API admin'den server-to-server erişim için container hostname
+      API_URL: http://api:3000
+      # PORT env'i hem API hem admin için aynı env_file'da PORT=3000 olarak
+      # geliyor; admin için 3001'i burada override et.
+      PORT: 3001
+      HOSTNAME: 0.0.0.0
+    depends_on:
+      - api
+    networks:
+      - butika
+    logging:
+      driver: local
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  minio:
+    image: minio/minio:latest
+    container_name: butika-minio
+    restart: always
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+      MINIO_REGION: ${MINIO_REGION:-us-east-1}
+      # Public URL (cdn.butika.ai) için virtual-host friendly URL'ler döner
+      MINIO_BROWSER_REDIRECT_URL: https://cdn.butika.ai
+    ports:
+      # S3 API public (nginx → cdn.butika.ai), console sadece localhost
+      - "127.0.0.1:9000:9000"
+      - "127.0.0.1:9001:9001"
+    volumes:
+      - minio-data:/data
+    networks:
+      - butika
+    logging:
+      driver: local
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 30s
+      timeout: 5s
+      start_period: 10s
+      retries: 3
+
+networks:
+  butika:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+          gateway: 172.20.0.1
+
+volumes:
+  minio-data:
+    name: butika-minio-data

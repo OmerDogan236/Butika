@@ -1,0 +1,176 @@
+{
+  "data": {
+    "listOrder": {
+      "data": [
+        {
+          "id": "093e44dd-f66b-4f96-85b4-9b747eb9f2f4",
+          "orderNumber": "1006",
+          "status": "CREATED",
+          "orderPaymentStatus": "PAID",
+          "orderPackageStatus": "PARTIALLY_FULFILLED",
+          "orderedAt": 1792752898562,
+          "paidAt": null,
+          "cancelledAt": null,
+          "deliveredAt": null,
+          "updatedAt": 1792780113557,
+          "totalFinalPrice": 121,
+          "totalPrice": 121,
+          "currencyCode": "USD",
+          "couponCode": null,
+          "host": "dev-butikadeneme.ikas.shop",
+          "note": null,
+          "clientIp": "203.0.113.10",
+          "customer": {
+            "id": "3172c5df-2fb0-4dae-b3dd-b931b261d9f0",
+            "email": "musteri@example.com",
+            "firstName": "Ayşe",
+            "lastName": "Örnek",
+            "phone": "+905550000000"
+          },
+          "shippingAddress": {
+            "firstName": "Ayşe",
+            "lastName": "Örnek",
+            "phone": "+905550000000",
+            "addressLine1": "Örnek Mah. Deneme Sk. 1",
+            "city": {
+              "name": "İstanbul"
+            }
+          },
+          "shippingLines": [
+            {
+              "title": "Ücretsiz Kargo",
+              "price": 0,
+              "finalPrice": 0
+            }
+          ],
+          "taxLines": [
+            {
+              "price": 20.17,
+              "rate": 20
+            }
+          ],
+          "orderAdjustments": [],
+          "salesChannel": {
+            "id": "300d2937-a714-4319-b292-60eaae1eda8d",
+            "name": "dev-butikadeneme",
+            "type": 1
+          },
+          "storefront": {
+            "id": "807c520e-1911-4ed5-86de-de9aae7c5f0f",
+            "name": "dev-butikadeneme"
+          },
+          "sessionInfo": null,
+          "orderLineItems": [
+            {
+              "id": "28f78635-e571-48e3-a65e-fec30a3dfb80",
+              "quantity": 1,
+              "finalPrice": 18,
+              "price": 18,
+              "status": "FULFILLED",
+              "variant": {
+                "id": "0d8eecd6-bddf-45b7-9e8f-9b49cf1bdbad",
+                "productId": "af8f9e7f-a9b7-4c4e-9a48-d7c00e56fa6c",
+                "name": "Basic Shorts Lilac",
+                "slug": "basic-shorts-lilac",
+                "mainImageId": "2b25787f-a742-41fe-a6a2-0c018a7ccd05",
+                "sku": null
+              }
+            },
+            {
+              "id": "7951a3eb-caea-41cb-bc53-63e828f22de1",
+              "quantity": 1,
+              "finalPrice": 18,
+              "price": 18,
+              "status": "UNFULFILLED",
+              "variant": {
+                "id": "07037103-424f-4c78-a2fc-8d6b60103713",
+                "productId": "bcd7a5b7-d349-4776-ae34-4b8cce6318b0",
+                "name": "Basic Shorts Powder",
+                "slug": "basic-shorts-powder",
+                "mainImageId": "cc61db93-b2b1-4416-afb7-b619fc7984b3",
+                "sku": null
+              }
+            },
+            {
+              "id": "22f63511-e5ab-45f5-8397-da6e6fca9e36",
+              "quantity": 1,
+              "finalPrice": 21,
+              "price": 35,
+              "status": "UNFULFILLED",
+              "variant": {
+                "id": "65d5aa33-effd-4d1d-ad19-11c820cfbe1e",
+                "productId": "60fca444-caa8-4a37-bdea-9e12a71029d5",
+                "name": "Mini Shoulder Bag",
+                "slug": "mini-shoulder-bag",
+                "mainImageId": "144e63bf-16d9-4c5d-93e7-3d485fe3a2e7",
+                "sku": null
+              }
+            },
+            {
+              "id": "9ab5eb04-c04f-4c17-b41d-84a3394f34e0",
+              "quantity": 1,
+              "finalPrice": 14,
+              "price": 20,
+              "status": "UNFULFILLED",
+              "variant": {
+                "id": "500adb99-42ad-4e67-bb9e-5262cef07486",
+                "productId": "a5724776-b902-4206-b56c-4ac562efdec8",
+                "name": "Basic Cap",
+                "slug": "basic-cap",
+                "mainImageId": "ac7b1ddd-d05d-492b-9d26-2c92a9cda243",
+                "sku": null
+              }
+            },
+            {
+              "id": "fc8d31dc-e91d-4a30-be99-3270cf289372",
+              "quantity": 1,
+              "finalPrice": 14,
+              "price": 20,
+              "status": "FULFILLED",
+              "variant": {
+                "id": "8c0fd1c2-01f0-4a13-9539-565caa07fdd4",
+                "productId": "a5724776-b902-4206-b56c-4ac562efdec8",
+                "name": "Basic Cap",
+                "slug": "basic-cap",
+                "mainImageId": "101f76eb-18f6-4409-9dd1-a2146e0c4f33",
+                "sku": null
+              }
+            },
+            {
+              "id": "f6e56025-fe71-4811-8b68-5f9420ce0eb7",
+              "quantity": 2,
+              "finalPrice": 18,
+              "price": 18,
+              "status": "UNFULFILLED",
+              "variant": {
+                "id": "f5865275-233a-49cc-a6ad-0e339b6ab98a",
+                "productId": "46be8a2a-b382-4254-bd97-b38ad2028918",
+                "name": "Puffer Laptop Sleeve 14\"",
+                "slug": "puffer-laptop-sleeve-14-",
+                "mainImageId": "97190809-42b0-45fc-bb74-dfeb0fc74034",
+                "sku": null
+              }
+            }
+          ],
+          "orderPackages": [
+            {
+              "id": "2ee6c2ec-30ca-4243-b696-51fccfab5993",
+              "orderPackageNumber": "1004-1",
+              "orderPackageFulfillStatus": "FULFILLED",
+              "orderLineItemIds": [
+                "28f78635-e571-48e3-a65e-fec30a3dfb80",
+                "fc8d31dc-e91d-4a30-be99-3270cf289372"
+              ],
+              "trackingInfo": {
+                "cargoCompany": "Yurtiçi Kargo",
+                "cargoCompanyId": null,
+                "trackingNumber": "TEST1006",
+                "trackingLink": "https://www.yurticikargo.com/tr/online-servisler/gonderi-sorgula?code=TEST1006"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

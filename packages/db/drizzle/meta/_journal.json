@@ -1,0 +1,321 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1779489801374,
+      "tag": "0000_spotty_justice",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1779542979463,
+      "tag": "0001_flippant_midnight",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1779644061608,
+      "tag": "0002_bitter_power_pack",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1779649470319,
+      "tag": "0003_sleepy_husk",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1779836892490,
+      "tag": "0004_perpetual_the_fury",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1780647278072,
+      "tag": "0005_tiny_menace",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1780657474158,
+      "tag": "0006_polite_stepford_cuckoos",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1781767946668,
+      "tag": "0007_soft_mysterio",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1781784209440,
+      "tag": "0008_bouncy_tag",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1783801694239,
+      "tag": "0009_lame_skullbuster",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1783863030307,
+      "tag": "0010_great_scream",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1784119341102,
+      "tag": "0011_strange_spiral",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1787228400000,
+      "tag": "0012_boutique_price_segment",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1787486940000,
+      "tag": "0013_fiyat_guven_elle_atandi",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1788556364342,
+      "tag": "0014_schema_baseline_repair",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1788557077392,
+      "tag": "0015_price_tracking_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1788636378375,
+      "tag": "0016_price_drop_notifications",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1788639474952,
+      "tag": "0017_push_devices",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1788956412398,
+      "tag": "0018_conscious_boomer",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1788961130111,
+      "tag": "0019_cuddly_patriot",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1788962150148,
+      "tag": "0020_tense_boom_boom",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1788963276664,
+      "tag": "0021_cynical_fixer",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1788963908254,
+      "tag": "0022_thin_hulk",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1789124586809,
+      "tag": "0023_restock_alerts",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1789476804352,
+      "tag": "0024_apple_revoke_stats_default",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1789498450894,
+      "tag": "0025_boutique_tarz",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1789588761708,
+      "tag": "0026_tarz_testi_cevaplari",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1789825535521,
+      "tag": "0027_contact_discovery",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1789827007842,
+      "tag": "0028_contact_discovery_queue",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1789834824123,
+      "tag": "0029_outreach_emails",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1789901612246,
+      "tag": "0030_boutique_etiketler",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1790147188172,
+      "tag": "0031_butikcan_queries",
+      "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1790809726243,
+      "tag": "0032_butik_kontrol",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1790812497865,
+      "tag": "0033_yas_araligi",
+      "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "7",
+      "when": 1790879729747,
+      "tag": "0034_editorun_secimi",
+      "breakpoints": true
+    },
+    {
+      "idx": 35,
+      "version": "7",
+      "when": 1790890298098,
+      "tag": "0035_firsat_ve_vitrin_ayarlari",
+      "breakpoints": true
+    },
+    {
+      "idx": 36,
+      "version": "7",
+      "when": 1791148886188,
+      "tag": "0036_bildirim_planlari",
+      "breakpoints": true
+    },
+    {
+      "idx": 37,
+      "version": "7",
+      "when": 1791736563956,
+      "tag": "0037_kayit_kalitesi",
+      "breakpoints": true
+    },
+    {
+      "idx": 38,
+      "version": "7",
+      "when": 1792168590182,
+      "tag": "0038_detayli_test",
+      "breakpoints": true
+    },
+    {
+      "idx": 39,
+      "version": "7",
+      "when": 1792416482026,
+      "tag": "0039_bildirim_hedefi",
+      "breakpoints": true
+    },
+    {
+      "idx": 40,
+      "version": "7",
+      "when": 1792630899034,
+      "tag": "0040_kullanici_profilleri",
+      "breakpoints": true
+    },
+    {
+      "idx": 41,
+      "version": "7",
+      "when": 1792872335871,
+      "tag": "0041_butik_baglantisi",
+      "breakpoints": true
+    },
+    {
+      "idx": 42,
+      "version": "7",
+      "when": 1792880076842,
+      "tag": "0042_kayitli_butikler",
+      "breakpoints": true
+    },
+    {
+      "idx": 43,
+      "version": "7",
+      "when": 1792919131298,
+      "tag": "0043_shopify_baglantisi",
+      "breakpoints": true
+    },
+    {
+      "idx": 44,
+      "version": "7",
+      "when": 1792967679438,
+      "tag": "0044_kategori_cinsiyet",
+      "breakpoints": true
+    }
+  ]
+}

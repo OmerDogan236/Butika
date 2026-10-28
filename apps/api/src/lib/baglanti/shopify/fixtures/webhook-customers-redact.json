@@ -1,0 +1,11 @@
+{
+  "_not": "SENTETIK: Shopify dokumanindaki bicimden; ilk gercek baglantida dogrulanacak",
+  "shop_id": 954889,
+  "shop_domain": "butika-deneme.myshopify.com",
+  "customer": {
+    "id": 191167,
+    "email": "musteri-gizli@example.com",
+    "phone": "+905550001122"
+  },
+  "orders_to_redact": [299938, 280263, 220458]
+}

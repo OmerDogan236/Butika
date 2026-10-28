@@ -1,0 +1,73 @@
+# Yerel geliştirme için Postgres 18 + MinIO.
+# Prod compose'undan farkı: portlar host'a expose edilir, gizli anahtarlar
+# inline (dev için), Traefik yok.
+#
+#   pnpm docker:dev:up
+#   pnpm docker:dev:logs
+#   pnpm docker:dev:down
+
+name: butika-dev
+
+services:
+  postgres:
+    image: postgres:18-alpine
+    container_name: butika-postgres-dev
+    environment:
+      POSTGRES_USER: butika
+      POSTGRES_PASSWORD: butika
+      POSTGRES_DB: butika
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U butika -d butika"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  minio:
+    image: minio/minio:latest
+    container_name: butika-minio-dev
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: butika
+      MINIO_ROOT_PASSWORD: butika-dev-secret
+      MINIO_REGION: us-east-1
+    ports:
+      - "9000:9000"  # S3 API
+      - "9001:9001"  # Web console
+    volumes:
+      - miniodata:/data
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  minio-init:
+    # Tek seferlik: butika-uploads bucket'ını oluşturur, public read policy uygular.
+    image: minio/mc:latest
+    container_name: butika-minio-init
+    depends_on:
+      minio:
+        condition: service_healthy
+    entrypoint: >
+      /bin/sh -c "
+      until mc alias set local http://minio:9000 butika butika-dev-secret; do
+        echo 'waiting for minio...'; sleep 2;
+      done;
+      mc mb -p local/butika-uploads || true;
+      mc anonymous set download local/butika-uploads || true;
+      echo 'minio bucket ready';
+      "
+    restart: "no"
+
+volumes:
+  pgdata:
+    name: butika-pgdata-dev
+  miniodata:
+    name: butika-miniodata-dev

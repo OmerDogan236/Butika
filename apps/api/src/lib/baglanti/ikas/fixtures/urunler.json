@@ -1,0 +1,654 @@
+{
+  "data": {
+    "listProduct": {
+      "count": 31,
+      "data": [
+        {
+          "id": "a5724776-b902-4206-b56c-4ac562efdec8",
+          "name": "Basic Cap",
+          "description": "<h3>Versatile Design for Everyday Wear</h3>\n<br>\n<p>The Basic Cap from Nuvora exemplifies a seamless blend of functionality and style, making it an essential accessory for any wardrobe. Crafted from a premium cotton-blend fabric, this cap offers a lightweight and breathable experience, ensuring comfort throughout the day. The material’s inherent softness and durability make it suitable for various activities, whether engaging in outdoor sports, running errands, or simply enjoying a casual day out.</p>\n<br>\n<h3>Adjustable Fit for Maximum Comfort</h3>\n<br>\n<p>Equipped with an adjustable strap, the Basic Cap guarantees a customized fit for all head sizes. This feature not only enhances comfort but also ensures that the cap remains securely in place during movement. The thoughtful design allows for easy adjustments, making it a practical choice for individuals seeking both style and functionality.</p>\n<br>\n<h3>Aesthetic Versatility</h3>\n<br>\n<p>Available in three sophisticated colors—Brown, Green, and Beige—the Basic Cap complements a wide range of outfits and personal styles. The neutral tones provide a versatile aesthetic that can be effortlessly paired with casual wear, sports attire, or even more polished ensembles. This adaptability makes it an ideal accessory for various occasions, from outdoor adventures to social gatherings.</p>\n<br>\n<h3>Enhanced Sun Protection</h3>\n<br>\n<p>In addition to its stylish appearance, the Basic Cap serves a functional purpose by providing essential sun protection. The structured brim effectively shields the face and eyes from harmful UV rays, making it a prudent choice for those who spend extended periods outdoors. This protective feature enhances the cap’s appeal for outdoor enthusiasts and individuals who prioritize health and safety.</p>\n",
+          "totalStock": 298,
+          "deleted": false,
+          "metaData": {
+            "slug": "basic-cap"
+          },
+          "brand": {
+            "name": "Nuvora"
+          },
+          "categories": [],
+          "variants": [
+            {
+              "id": "500adb99-42ad-4e67-bb9e-5262cef07486",
+              "sku": null,
+              "isActive": true,
+              "sellIfOutOfStock": false,
+              "images": [
+                {
+                  "imageId": "ac7b1ddd-d05d-492b-9d26-2c92a9cda243",
+                  "isMain": true,
+                  "order": 1
+                },
+                {
+                  "imageId": "5d5b87f6-110f-4a2f-8b28-34c36224bb45",
+                  "isMain": false,
+                  "order": 2
+                },
+                {
+                  "imageId": "3d720dc8-fcde-4bf7-8821-92a980c87709",
+                  "isMain": false,
+                  "order": 3
+                },
+                {
+                  "imageId": "a304fb6d-d5b9-4c50-96cb-968645eb14ed",
+                  "isMain": false,
+                  "order": 4
+                },
+                {
+                  "imageId": "971c972a-4675-4551-8740-81599e760cb3",
+                  "isMain": false,
+                  "order": 5
+                },
+                {
+                  "imageId": "cb1528de-cbf2-4472-8b44-e4c73eaa70f3",
+                  "isMain": false,
+                  "order": 6
+                },
+                {
+                  "imageId": "9469db28-e09f-435c-86f8-6478ca6cdb4d",
+                  "isMain": false,
+                  "order": 7
+                }
+              ],
+              "prices": [
+                {
+                  "sellPrice": 20,
+                  "discountPrice": 14,
+                  "currency": null
+                }
+              ],
+              "stocks": [
+                {
+                  "stockCount": 99,
+                  "stockLocationId": "3bc97f19-469c-46b4-99b3-0341e3b39012"
+                }
+              ],
+              "variantValueIds": [
+                {
+                  "variantTypeId": "69f072d1-3cc4-4934-801a-8aebcdca9b0d",
+                  "variantValueId": "6e4ec290-f054-4e63-8b12-de0725a8689c"
+                }
+              ]
+            },
+            {
+              "id": "f00990f8-0b18-4884-8c13-4575471f1573",
+              "sku": null,
+              "isActive": true,
+              "sellIfOutOfStock": false,
+              "images": [
+                {
+                  "imageId": "ef565115-3d62-4eae-a011-dfffc8c60937",
+                  "isMain": true,
+                  "order": 1
+                },
+                {
+                  "imageId": "99532a6d-8b19-439d-ae2a-7871b5d3386c",
+                  "isMain": false,
+                  "order": 2
+                },
+                {
+                  "imageId": "78c8b08a-e081-4842-8db3-fd38bb0f341b",
+                  "isMain": false,
+                  "order": 3
+                },
+                {
+                  "imageId": "4b9bb010-daea-4df3-9c3b-c19a34c38289",
+                  "isMain": false,
+                  "order": 4
+                },
+                {
+                  "imageId": "707e88d6-ad8b-49f9-9d59-5820eb8daa54",
+                  "isMain": false,
+                  "order": 5
+                },
+                {
+                  "imageId": "cb1528de-cbf2-4472-8b44-e4c73eaa70f3",
+                  "isMain": false,
+                  "order": 6
+                },
+                {
+                  "imageId": "9469db28-e09f-435c-86f8-6478ca6cdb4d",
+                  "isMain": false,
+                  "order": 7
+                }
+              ],
+              "prices": [
+                {
+                  "sellPrice": 20,
+                  "discountPrice": 14,
+                  "currency": null
+                }
+              ],
+              "stocks": [
+                {
+                  "stockCount": 100,
+                  "stockLocationId": "3bc97f19-469c-46b4-99b3-0341e3b39012"
+                }
+              ],
+              "variantValueIds": [
+                {
+                  "variantTypeId": "69f072d1-3cc4-4934-801a-8aebcdca9b0d",
+                  "variantValueId": "5db0ab80-ebc6-4d32-8eb8-194591dd0e5d"
+                }
+              ]
+            },
+            {
+              "id": "8c0fd1c2-01f0-4a13-9539-565caa07fdd4",
+              "sku": null,
+              "isActive": true,
+              "sellIfOutOfStock": false,
+              "images": [
+                {
+                  "imageId": "101f76eb-18f6-4409-9dd1-a2146e0c4f33",
+                  "isMain": true,
+                  "order": 1
+                },
+                {
+                  "imageId": "0662bfae-e5ea-4320-b611-c00708db6e8d",
+                  "isMain": false,
+                  "order": 2
+                },
+                {
+                  "imageId": "6c32b2f7-46fa-4678-af4e-694e8ddbe7ad",
+                  "isMain": false,
+                  "order": 3
+                },
+                {
+                  "imageId": "cbe9a40a-6abf-4211-a8e2-a539612f080c",
+                  "isMain": false,
+                  "order": 4
+                },
+                {
+                  "imageId": "cb1528de-cbf2-4472-8b44-e4c73eaa70f3",
+                  "isMain": false,
+                  "order": 5
+                },
+                {
+                  "imageId": "9469db28-e09f-435c-86f8-6478ca6cdb4d",
+                  "isMain": false,
+                  "order": 6
+                }
+              ],
+              "prices": [
+                {
+                  "sellPrice": 20,
+                  "discountPrice": 14,
+                  "currency": null
+                }
+              ],
+              "stocks": [
+                {
+                  "stockCount": 99,
+                  "stockLocationId": "3bc97f19-469c-46b4-99b3-0341e3b39012"
+                }
+              ],
+              "variantValueIds": [
+                {
+                  "variantTypeId": "69f072d1-3cc4-4934-801a-8aebcdca9b0d",
+                  "variantValueId": "320a8363-f08a-4107-80a5-75b36f016b57"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ddee9d29-eac6-41d8-aa01-a70646550e92",
+          "name": "Basic Shorts Anthracite",
+          "description": "<p>Elevate your casual wardrobe with the Basic Shorts in Anthracite, expertly crafted by Nuvora. These shorts are designed with a lightweight build, ensuring optimal comfort and breathability, making them an ideal choice for warm weather and active lifestyles.</p>\n<br>\n<h3>Premium Fabric Composition</h3>\n<p>Constructed from a high-quality cotton-blend fabric, these shorts offer a soft touch against the skin while maintaining durability. The blend enhances moisture-wicking properties, allowing for effective temperature regulation during physical activities. This feature is particularly beneficial for those who engage in outdoor sports or leisurely strolls.</p>\n<br>\n<h3>Versatile Design</h3>\n<p>The Basic Shorts are designed for effortless pairing with a variety of tops, from casual tees to stylish button-ups. Their neutral anthracite color provides a sophisticated backdrop that complements any outfit, making them suitable for both relaxed weekends and casual outings.</p>\n<br>\n<h3>Tailored Fit Options</h3>\n<p>Available in sizes S, M, L, and XL, these shorts cater to a diverse range of body types, ensuring a comfortable and flattering fit for all. The tailored design not only enhances the silhouette but also allows for ease of movement, making them perfect for both lounging and active pursuits.</p>\n<br>\n<h3>Functional Features</h3>\n<p>Incorporating practical elements, these shorts are equipped with pockets that provide convenient storage for essentials such as keys, wallets, or mobile devices. The thoughtful design ensures that functionality does not compromise style, making them a reliable choice for everyday wear.</p>\n",
+          "totalStock": 398,
+          "deleted": false,
+          "metaData": {
+            "slug": "basic-shorts-anthracite"
+          },
+          "brand": {
+            "name": "Nuvora"
+          },
+          "categories": [],
+          "variants": [
+            {
+              "id": "2bd73ba9-9d9a-4cc1-866f-487d0286af01",
+              "sku": null,
+              "isActive": true,
+              "sellIfOutOfStock": false,
+              "images": [
+                {
+                  "imageId": "132bf5b2-f474-432e-b44a-2c8dac6a8431",
+                  "isMain": true,
+                  "order": 1
+                },
+                {
+                  "imageId": "93a1873f-17cf-4b4b-9a7d-4494c6783b59",
+                  "isMain": false,
+                  "order": 2
+                },
+                {
+                  "imageId": "bf6f8688-69c9-46d9-9e1c-bf87bf677ef5",
+                  "isMain": false,
+                  "order": 3
+                },
+                {
+                  "imageId": "8e29a726-ffaa-4fa8-b92e-abbc54a0d7cb",
+                  "isMain": false,
+                  "order": 4
+                },
+                {
+                  "imageId": "f0a75e7b-8bcd-402e-b928-3942ff26ec19",
+                  "isMain": false,
+                  "order": 5
+                }
+              ],
+              "prices": [
+                {
+                  "sellPrice": 18,
+                  "discountPrice": null,
+                  "currency": null
+                }
+              ],
+              "stocks": [
+                {
+                  "stockCount": 99,
+                  "stockLocationId": "3bc97f19-469c-46b4-99b3-0341e3b39012"
+                }
+              ],
+              "variantValueIds": [
+                {
+                  "variantTypeId": "2a59a6ff-eaaf-45b4-84ba-f866cd2907ec",
+                  "variantValueId": "22af99d0-566d-4ff5-8be1-f175ae5c8100"
+                }
+              ]
+            },
+            {
+              "id": "0e857e99-532c-4fdd-b3c2-ad5e25b9f96f",
+              "sku": null,
+              "isActive": true,
+              "sellIfOutOfStock": false,
+              "images": [
+                {
+                  "imageId": "132bf5b2-f474-432e-b44a-2c8dac6a8431",
+                  "isMain": true,
+                  "order": 1
+                },
+                {
+                  "imageId": "93a1873f-17cf-4b4b-9a7d-4494c6783b59",
+                  "isMain": false,
+                  "order": 2
+                },
+                {
+                  "imageId": "bf6f8688-69c9-46d9-9e1c-bf87bf677ef5",
+                  "isMain": false,
+                  "order": 3
+                },
+                {
+                  "imageId": "8e29a726-ffaa-4fa8-b92e-abbc54a0d7cb",
+                  "isMain": false,
+                  "order": 4
+                },
+                {
+                  "imageId": "f0a75e7b-8bcd-402e-b928-3942ff26ec19",
+                  "isMain": false,
+                  "order": 5
+                }
+              ],
+              "prices": [
+                {
+                  "sellPrice": 18,
+                  "discountPrice": null,
+                  "currency": null
+                }
+              ],
+              "stocks": [
+                {
+                  "stockCount": 99,
+                  "stockLocationId": "3bc97f19-469c-46b4-99b3-0341e3b39012"
+                }
+              ],
+              "variantValueIds": [
+                {
+                  "variantTypeId": "2a59a6ff-eaaf-45b4-84ba-f866cd2907ec",
+                  "variantValueId": "9d5783a6-64c7-4a89-aca2-531ef3062550"
+                }
+              ]
+            },
+            {
+              "id": "68fc5b64-8e73-44f1-840a-f651348f6f1f",
+              "sku": null,
+              "isActive": true,
+              "sellIfOutOfStock": false,
+              "images": [
+                {
+                  "imageId": "132bf5b2-f474-432e-b44a-2c8dac6a8431",
+                  "isMain": true,
+                  "order": 1
+                },
+                {
+                  "imageId": "93a1873f-17cf-4b4b-9a7d-4494c6783b59",
+                  "isMain": false,
+                  "order": 2
+                },
+                {
+                  "imageId": "bf6f8688-69c9-46d9-9e1c-bf87bf677ef5",
+                  "isMain": false,
+                  "order": 3
+                },
+                {
+                  "imageId": "8e29a726-ffaa-4fa8-b92e-abbc54a0d7cb",
+                  "isMain": false,
+                  "order": 4
+                },
+                {
+                  "imageId": "f0a75e7b-8bcd-402e-b928-3942ff26ec19",
+                  "isMain": false,
+                  "order": 5
+                }
+              ],
+              "prices": [
+                {
+                  "sellPrice": 18,
+                  "discountPrice": null,
+                  "currency": null
+                }
+              ],
+              "stocks": [
+                {
+                  "stockCount": 100,
+                  "stockLocationId": "3bc97f19-469c-46b4-99b3-0341e3b39012"
+                }
+              ],
+              "variantValueIds": [
+                {
+                  "variantTypeId": "2a59a6ff-eaaf-45b4-84ba-f866cd2907ec",
+                  "variantValueId": "c48dffd5-32c2-49d7-8b2e-20b1037d13df"
+                }
+              ]
+            },
+            {
+              "id": "c424b63a-99f5-4c3e-bc51-4afc7f74365f",
+              "sku": null,
+              "isActive": true,
+              "sellIfOutOfStock": false,
+              "images": [
+                {
+                  "imageId": "132bf5b2-f474-432e-b44a-2c8dac6a8431",
+                  "isMain": true,
+                  "order": 1
+                },
+                {
+                  "imageId": "93a1873f-17cf-4b4b-9a7d-4494c6783b59",
+                  "isMain": false,
+                  "order": 2
+                },
+                {
+                  "imageId": "bf6f8688-69c9-46d9-9e1c-bf87bf677ef5",
+                  "isMain": false,
+                  "order": 3
+                },
+                {
+                  "imageId": "8e29a726-ffaa-4fa8-b92e-abbc54a0d7cb",
+                  "isMain": false,
+                  "order": 4
+                },
+                {
+                  "imageId": "f0a75e7b-8bcd-402e-b928-3942ff26ec19",
+                  "isMain": false,
+                  "order": 5
+                }
+              ],
+              "prices": [
+                {
+                  "sellPrice": 18,
+                  "discountPrice": null,
+                  "currency": null
+                }
+              ],
+              "stocks": [
+                {
+                  "stockCount": 100,
+                  "stockLocationId": "3bc97f19-469c-46b4-99b3-0341e3b39012"
+                }
+              ],
+              "variantValueIds": [
+                {
+                  "variantTypeId": "2a59a6ff-eaaf-45b4-84ba-f866cd2907ec",
+                  "variantValueId": "2f7446f0-5cda-4cbf-9ef3-d6b440f53c1b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ba576b4a-a24c-4964-b831-e86bb6183c30",
+          "name": "Basic Shorts Beige",
+          "description": "<p>Elevate your casual wardrobe with the Basic Shorts in Beige, a quintessential addition from Nuvora that seamlessly combines style and functionality. Crafted from a premium cotton-blend fabric, these shorts are designed to provide a lightweight and breathable experience, ensuring optimal comfort throughout the day.</p>\n<br>\n<h3>Superior Fabric Composition</h3>\n<p>The cotton-blend material not only enhances durability but also offers a soft touch against the skin, making these shorts ideal for extended wear. This fabric composition allows for excellent moisture-wicking properties, keeping you cool and dry during warmer months or active pursuits.</p>\n<br>\n<h3>Versatile Design</h3>\n<p>The understated beige hue of these shorts makes them an incredibly versatile piece, easily paired with a variety of tops, from casual tees to more polished button-downs. Whether you are heading to a weekend brunch, a casual outing, or simply enjoying a day at home, these shorts adapt effortlessly to any setting.</p>\n<br>\n<h3>Tailored Fit Options</h3>\n<p>Available in sizes S, M, L, and XL, the Basic Shorts cater to a diverse range of body types, ensuring a comfortable and flattering fit for everyone. The tailored design provides a modern silhouette while allowing for ease of movement</p>\n",
+          "totalStock": 400,
+          "deleted": false,
+          "metaData": {
+            "slug": "basic-shorts-beige"
+          },
+          "brand": {
+            "name": "Nuvora"
+          },
+          "categories": [],
+          "variants": [
+            {
+              "id": "b1f333ec-35e4-455e-8818-e409f369ecb1",
+              "sku": null,
+              "isActive": false,
+              "sellIfOutOfStock": false,
+              "images": [
+                {
+                  "imageId": "30e11583-20b0-4f17-afc2-5f55c571729d",
+                  "isMain": true,
+                  "order": 1
+                },
+                {
+                  "imageId": "816f82da-2298-424c-94fa-25f17e23b0aa",
+                  "isMain": false,
+                  "order": 2
+                },
+                {
+                  "imageId": "42a7ca1b-b208-4a1f-b2c6-384a6cfcb9fd",
+                  "isMain": false,
+                  "order": 3
+                },
+                {
+                  "imageId": "dea8e85b-0406-43f7-879d-1b05493bf8f4",
+                  "isMain": false,
+                  "order": 4
+                },
+                {
+                  "imageId": "151683bb-be4e-48fe-a5a5-98f64afef696",
+                  "isMain": false,
+                  "order": 5
+                }
+              ],
+              "prices": [
+                {
+                  "sellPrice": 18,
+                  "discountPrice": null,
+                  "currency": null
+                }
+              ],
+              "stocks": [
+                {
+                  "stockCount": 100,
+                  "stockLocationId": "3bc97f19-469c-46b4-99b3-0341e3b39012"
+                }
+              ],
+              "variantValueIds": [
+                {
+                  "variantTypeId": "2a59a6ff-eaaf-45b4-84ba-f866cd2907ec",
+                  "variantValueId": "22af99d0-566d-4ff5-8be1-f175ae5c8100"
+                }
+              ]
+            },
+            {
+              "id": "9adca517-d18e-46bb-8af6-63bbeaa35e76",
+              "sku": null,
+              "isActive": false,
+              "sellIfOutOfStock": false,
+              "images": [
+                {
+                  "imageId": "30e11583-20b0-4f17-afc2-5f55c571729d",
+                  "isMain": true,
+                  "order": 1
+                },
+                {
+                  "imageId": "816f82da-2298-424c-94fa-25f17e23b0aa",
+                  "isMain": false,
+                  "order": 2
+                },
+                {
+                  "imageId": "42a7ca1b-b208-4a1f-b2c6-384a6cfcb9fd",
+                  "isMain": false,
+                  "order": 3
+                },
+                {
+                  "imageId": "dea8e85b-0406-43f7-879d-1b05493bf8f4",
+                  "isMain": false,
+                  "order": 4
+                },
+                {
+                  "imageId": "151683bb-be4e-48fe-a5a5-98f64afef696",
+                  "isMain": false,
+                  "order": 5
+                }
+              ],
+              "prices": [
+                {
+                  "sellPrice": 18,
+                  "discountPrice": null,
+                  "currency": null
+                }
+              ],
+              "stocks": [
+                {
+                  "stockCount": 100,
+                  "stockLocationId": "3bc97f19-469c-46b4-99b3-0341e3b39012"
+                }
+              ],
+              "variantValueIds": [
+                {
+                  "variantTypeId": "2a59a6ff-eaaf-45b4-84ba-f866cd2907ec",
+                  "variantValueId": "9d5783a6-64c7-4a89-aca2-531ef3062550"
+                }
+              ]
+            },
+            {
+              "id": "c5c50f21-bbbe-49ed-ace8-fb2e5ca68ad2",
+              "sku": null,
+              "isActive": false,
+              "sellIfOutOfStock": false,
+              "images": [
+                {
+                  "imageId": "30e11583-20b0-4f17-afc2-5f55c571729d",
+                  "isMain": true,
+                  "order": 1
+                },
+                {
+                  "imageId": "816f82da-2298-424c-94fa-25f17e23b0aa",
+                  "isMain": false,
+                  "order": 2
+                },
+                {
+                  "imageId": "42a7ca1b-b208-4a1f-b2c6-384a6cfcb9fd",
+                  "isMain": false,
+                  "order": 3
+                },
+                {
+                  "imageId": "dea8e85b-0406-43f7-879d-1b05493bf8f4",
+                  "isMain": false,
+                  "order": 4
+                },
+                {
+                  "imageId": "151683bb-be4e-48fe-a5a5-98f64afef696",
+                  "isMain": false,
+                  "order": 5
+                }
+              ],
+              "prices": [
+                {
+                  "sellPrice": 18,
+                  "discountPrice": null,
+                  "currency": null
+                }
+              ],
+              "stocks": [
+                {
+                  "stockCount": 100,
+                  "stockLocationId": "3bc97f19-469c-46b4-99b3-0341e3b39012"
+                }
+              ],
+              "variantValueIds": [
+                {
+                  "variantTypeId": "2a59a6ff-eaaf-45b4-84ba-f866cd2907ec",
+                  "variantValueId": "c48dffd5-32c2-49d7-8b2e-20b1037d13df"
+                }
+              ]
+            },
+            {
+              "id": "a56f6430-2478-4320-90d6-0b0390286f92",
+              "sku": null,
+              "isActive": false,
+              "sellIfOutOfStock": false,
+              "images": [
+                {
+                  "imageId": "30e11583-20b0-4f17-afc2-5f55c571729d",
+                  "isMain": true,
+                  "order": 1
+                },
+                {
+                  "imageId": "816f82da-2298-424c-94fa-25f17e23b0aa",
+                  "isMain": false,
+                  "order": 2
+                },
+                {
+                  "imageId": "42a7ca1b-b208-4a1f-b2c6-384a6cfcb9fd",
+                  "isMain": false,
+                  "order": 3
+                },
+                {
+                  "imageId": "dea8e85b-0406-43f7-879d-1b05493bf8f4",
+                  "isMain": false,
+                  "order": 4
+                },
+                {
+                  "imageId": "151683bb-be4e-48fe-a5a5-98f64afef696",
+                  "isMain": false,
+                  "order": 5
+                }
+              ],
+              "prices": [
+                {
+                  "sellPrice": 18,
+                  "discountPrice": null,
+                  "currency": null
+                }
+              ],
+              "stocks": [
+                {
+                  "stockCount": 100,
+                  "stockLocationId": "3bc97f19-469c-46b4-99b3-0341e3b39012"
+                }
+              ],
+              "variantValueIds": [
+                {
+                  "variantTypeId": "2a59a6ff-eaaf-45b4-84ba-f866cd2907ec",
+                  "variantValueId": "2f7446f0-5cda-4cbf-9ef3-d6b440f53c1b"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

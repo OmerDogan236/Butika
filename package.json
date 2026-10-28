@@ -1,0 +1,37 @@
+{
+  "name": "butika",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Butika — editorial boutique aggregator for women",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=10"
+  },
+  "packageManager": "pnpm@10.33.2",
+  "scripts": {
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "check": "biome check --write .",
+    "typecheck": "pnpm -r --parallel typecheck",
+    "build": "pnpm -r --parallel build",
+    "dev:api": "pnpm --filter @butika/api dev",
+    "dev:admin": "pnpm --filter @butika/admin dev",
+    "dev:mobile": "pnpm --filter @butika/mobile start",
+    "db:generate": "pnpm --filter @butika/db generate",
+    "db:migrate": "pnpm --filter @butika/db migrate",
+    "db:seed": "pnpm --filter @butika/db seed",
+    "db:seed:demo": "pnpm --filter @butika/db seed:demo",
+    "db:studio": "pnpm --filter @butika/db studio",
+    "docker:dev:up": "docker compose -f infra/docker-compose.dev.yml up -d",
+    "docker:dev:down": "docker compose -f infra/docker-compose.dev.yml down",
+    "docker:dev:logs": "docker compose -f infra/docker-compose.dev.yml logs -f"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "typescript": "^5.7.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["@biomejs/biome", "argon2", "esbuild", "msgpackr-extract", "sharp"]
+  }
+}

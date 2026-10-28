@@ -1,0 +1,85 @@
+{
+  "data": {
+    "listOrder": {
+      "data": [
+        {
+          "id": "2ee8ee9b-8fcd-431d-803d-8491f0a5c2da",
+          "orderNumber": "1007",
+          "status": "CANCELLED",
+          "orderPaymentStatus": "WAITING",
+          "orderPackageStatus": "CANCELLED",
+          "orderedAt": 1792752898602,
+          "paidAt": null,
+          "cancelledAt": null,
+          "deliveredAt": null,
+          "updatedAt": 1792780142986,
+          "totalFinalPrice": 30,
+          "totalPrice": 25,
+          "currencyCode": "USD",
+          "couponCode": null,
+          "host": "dev-butikadeneme.ikas.shop",
+          "note": null,
+          "clientIp": "203.0.113.10",
+          "customer": {
+            "id": "3172c5df-2fb0-4dae-b3dd-b931b261d9f0",
+            "email": "musteri@example.com",
+            "firstName": "Ayşe",
+            "lastName": "Örnek",
+            "phone": "+905550000000"
+          },
+          "shippingAddress": {
+            "firstName": "Ayşe",
+            "lastName": "Örnek",
+            "phone": "+905550000000",
+            "addressLine1": "Örnek Mah. Deneme Sk. 1",
+            "city": {
+              "name": "İstanbul"
+            }
+          },
+          "shippingLines": [
+            {
+              "title": "Ücretli Kargo",
+              "price": 5,
+              "finalPrice": 5
+            }
+          ],
+          "taxLines": [
+            {
+              "price": 5,
+              "rate": 20
+            }
+          ],
+          "orderAdjustments": [],
+          "salesChannel": {
+            "id": "300d2937-a714-4319-b292-60eaae1eda8d",
+            "name": "dev-butikadeneme",
+            "type": 1
+          },
+          "storefront": {
+            "id": "807c520e-1911-4ed5-86de-de9aae7c5f0f",
+            "name": "dev-butikadeneme"
+          },
+          "sessionInfo": null,
+          "orderLineItems": [
+            {
+              "id": "8d59024e-aa18-4f7f-832f-c421a361e953",
+              "quantity": 1,
+              "finalPrice": 25,
+              "price": 25,
+              "status": "CANCELLED",
+              "variant": {
+                "id": "72109c73-b6f7-4ddd-8a06-460087afc989",
+                "productId": "e7d3a954-1cd3-4861-94d2-19f1aa635643",
+                "name": "Day Trip Waist Bag - Beige",
+                "slug": "day-trip-waist-bag-beige",
+                "mainImageId": "696e21d0-3a78-4866-bd56-c7c77ec1ad08",
+                "sku": null
+              }
+            }
+          ],
+          "orderPackages": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# Butika - Shopify uygulama yapilandirmasi sablonu (Shopify CLI).
+# Her pilot butigin ayri Partner uygulamasi vardir. Kullanim: bu dosyayi bos bir klasore
+# shopify.app.toml adiyla kopyalayin, client_id'yi o uygulamanin Client ID'si ile degistirin,
+# sonra o klasorde `shopify app deploy` calistirin (giris sahibin). Gizlilik bildirimleri
+# (compliance) Dev Dashboard formunda olmadigi icin buradan verilir. Siparis/urun/kaldirma
+# bildirimleri baglanti kurulunca API'den (webhookSubscriptionCreate) kaydedilir.
+# Client secret bu dosyaya YAZILMAZ.
+
+client_id = "PILOT_UYGULAMA_CLIENT_ID"
+name = "Butika"
+application_url = "https://api.butika.ai/katilim/shopify/uygulama"
+embedded = false
+
+[access_scopes]
+scopes = "read_products,read_orders,read_legal_policies"
+
+[auth]
+redirect_urls = ["https://api.butika.ai/katilim/shopify/geri-donus"]
+
+[webhooks]
+api_version = "2026-10"
+
+[[webhooks.subscriptions]]
+compliance_topics = ["customers/data_request", "customers/redact", "shop/redact"]
+uri = "https://api.butika.ai/katilim/shopify/bildirim"

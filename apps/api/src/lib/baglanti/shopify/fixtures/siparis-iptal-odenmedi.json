@@ -1,0 +1,82 @@
+{
+  "data": {
+    "order": {
+      "id": "gid://shopify/Order/18966052175906",
+      "name": "#1003",
+      "createdAt": "2026-10-24T20:52:05Z",
+      "processedAt": "2026-10-24T20:52:05Z",
+      "updatedAt": "2026-10-24T20:52:26Z",
+      "cancelledAt": "2026-10-24T20:52:26Z",
+      "cancelReason": "CUSTOMER",
+      "displayFinancialStatus": "PENDING",
+      "displayFulfillmentStatus": "FULFILLMENT_NOT_REQUIRED",
+      "currencyCode": "USD",
+      "presentmentCurrencyCode": "USD",
+      "taxesIncluded": false,
+      "subtotalPriceSet": {
+        "shopMoney": {
+          "amount": "49.95",
+          "currencyCode": "USD"
+        }
+      },
+      "currentSubtotalPriceSet": {
+        "shopMoney": {
+          "amount": "0.0",
+          "currencyCode": "USD"
+        }
+      },
+      "totalTaxSet": {
+        "shopMoney": {
+          "amount": "0.0"
+        }
+      },
+      "currentTotalTaxSet": {
+        "shopMoney": {
+          "amount": "0.0"
+        }
+      },
+      "totalShippingPriceSet": {
+        "shopMoney": {
+          "amount": "0.0"
+        }
+      },
+      "totalRefundedSet": {
+        "shopMoney": {
+          "amount": "0.0"
+        }
+      },
+      "customerJourneySummary": {
+        "ready": false,
+        "firstVisit": null,
+        "lastVisit": null
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "id": "gid://shopify/LineItem/50850190786594",
+            "title": "Selling Plans Ski Wax",
+            "quantity": 1,
+            "currentQuantity": 0,
+            "product": {
+              "id": "gid://shopify/Product/15485653581858"
+            },
+            "variant": {
+              "id": "gid://shopify/ProductVariant/69369618333730"
+            },
+            "originalUnitPriceSet": {
+              "shopMoney": {
+                "amount": "49.95"
+              }
+            },
+            "discountedUnitPriceAfterAllDiscountsSet": {
+              "shopMoney": {
+                "amount": "49.95"
+              }
+            }
+          }
+        ]
+      },
+      "fulfillments": []
+    }
+  }
+}

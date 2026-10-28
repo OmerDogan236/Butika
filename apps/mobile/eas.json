@@ -1,0 +1,46 @@
+{
+  "cli": {
+    "version": ">= 12.0.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "GOOGLE_WEB_CLIENT_ID.apps.googleusercontent.com",
+        "EXPO_PUBLIC_GOOGLE_IOS_CLIENT_ID": "GOOGLE_IOS_CLIENT_ID.apps.googleusercontent.com",
+        "EXPO_PUBLIC_API_URL": "https://api.butika.ai"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "GOOGLE_WEB_CLIENT_ID.apps.googleusercontent.com",
+        "EXPO_PUBLIC_GOOGLE_IOS_CLIENT_ID": "GOOGLE_IOS_CLIENT_ID.apps.googleusercontent.com",
+        "EXPO_PUBLIC_API_URL": "https://api.butika.ai"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "GOOGLE_WEB_CLIENT_ID.apps.googleusercontent.com",
+        "EXPO_PUBLIC_GOOGLE_IOS_CLIENT_ID": "GOOGLE_IOS_CLIENT_ID.apps.googleusercontent.com",
+        "EXPO_PUBLIC_API_URL": "https://api.butika.ai"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": "APP_STORE_CONNECT_APP_ID"
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+ALTER TABLE "boutiques" ADD COLUMN "etiketler" text[] DEFAULT '{}' NOT NULL;

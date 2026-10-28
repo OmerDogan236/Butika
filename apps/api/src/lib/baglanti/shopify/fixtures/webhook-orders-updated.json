@@ -1,0 +1,53 @@
+{
+  "_not": "SENTETIK: Shopify dokumanindaki bicimden; ilk gercek baglantida dogrulanacak",
+  "id": 820982911946154508,
+  "admin_graphql_api_id": "gid://shopify/Order/820982911946154508",
+  "name": "#9999",
+  "order_number": 9999,
+  "email": "musteri-gizli@example.com",
+  "contact_email": "musteri-gizli@example.com",
+  "phone": "+905550001122",
+  "browser_ip": "203.0.113.77",
+  "created_at": "2026-10-25T10:00:00+03:00",
+  "updated_at": "2026-10-25T10:05:00+03:00",
+  "cancelled_at": null,
+  "financial_status": "paid",
+  "fulfillment_status": null,
+  "currency": "USD",
+  "total_price": "24.95",
+  "landing_site": "/products/x?utm_source=butika&utm_medium=app&utm_campaign=baglanti&utm_content=sahte",
+  "customer": {
+    "id": 115310627314723954,
+    "email": "musteri-gizli@example.com",
+    "first_name": "GizliAd",
+    "last_name": "GizliSoyad",
+    "phone": "+905550001122"
+  },
+  "billing_address": {
+    "first_name": "GizliAd",
+    "last_name": "GizliSoyad",
+    "address1": "Gizli Sokak 12",
+    "city": "Istanbul",
+    "zip": "34000",
+    "country_code": "TR",
+    "phone": "+905550001122"
+  },
+  "shipping_address": {
+    "first_name": "GizliAd",
+    "last_name": "GizliSoyad",
+    "address1": "Gizli Sokak 12",
+    "city": "Istanbul",
+    "zip": "34000",
+    "country_code": "TR",
+    "phone": "+905550001122"
+  },
+  "line_items": [
+    {
+      "id": 866550311766439020,
+      "product_id": 632910392,
+      "title": "Deneme urun",
+      "quantity": 1,
+      "price": "24.95"
+    }
+  ]
+}

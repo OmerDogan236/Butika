@@ -1,0 +1,1 @@
+ALTER TABLE "tracked_products" ADD COLUMN "notification_baseline_at" timestamp with time zone;
